@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    background-color: pink;
+  }
+  
+  .game-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #level-title {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  #error-counter {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  #photos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  img {
+    width: 50%;
+    cursor: pointer;
+    border: 5px solid transparent;
+    transition: border 0.3s;
+    border-color: white;
+  }
+  
+  img:hover {
+    border: 1px solid #000;
+  }
+  
